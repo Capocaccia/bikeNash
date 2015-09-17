@@ -1,0 +1,16 @@
+extends ../layouts/default
+
+
+block content
+  .container
+    .row
+      .bCycleContainer
+        a(target="_blank" href='https://nashville.bcycle.com/map')
+          h1.bCycleTag B-Cycle
+    .row.mtbRoadContainer
+      .roadDiv.col-md-5
+        a(href='/maps/mtbMaps')
+          img(src="../../images/mtb.png" class="img-responsive" alt="Cinque Terre")
+      .mtbDiv.col-md-5.col-md-offset-2
+        a(href='/maps/roadMaps')
+          img(src="../../images/roadbike.png" class="img-responsive" alt="Cinque Terre")

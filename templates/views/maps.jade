@@ -1,0 +1,22 @@
+extends ../layouts/default
+
+
+block content
+  .container
+    .mapSelectContainer
+      .row
+        .bCycleContainer.col-md-12
+          a(target="_blank" href='https://nashville.bcycle.com/map', style="text-decoration: none")
+            h1.bCycleTag.col-md-12 B-Cycle Locations
+      .row.mtbRoadContainer
+        .mtbDiv.col-md-4
+          a(href='/maps/mtbMaps')
+            img.mtbImg(src="../../images/mtb.png" class="img-responsive" alt="Cinque Terre")
+        .roadOrMtb.col-md-4
+          p.mapTagMtb Mountain
+          p.mapTagMtb &#9756;
+          p.mapTagRoad &#9758;
+          p.mapTagRoad Road
+        .roadDiv.col-md-4
+          a(target="_blank" href='http://www.nashville.gov/Parks-and-Recreation/Greenways-and-Trails/Maps.aspx')
+            img.roadImg(src="../../images/roadbike.png" class="img-responsive" alt="Cinque Terre")
