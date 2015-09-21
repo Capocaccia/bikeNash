@@ -27,4 +27,20 @@ $(document).ready( function() {
     $('.roadImg').mouseleave(function() {
         $('.mapTagRoad').css("color", "black");
     })
+
+    $('.centralTnTagContainer').mouseenter(function() {
+        $('.centralTnTag').css("color", "#0198E1");
+    })
+
+    $('.centralTnTagContainer').mouseleave(function() {
+        $('.centralTnTag').css("color", "black");
+    })
+
+     $('.bCycleContainer').mouseenter(function() {
+        $('.bCycleTag').css("color", "#0198E1");
+    })
+
+    $('.bCycleContainer').mouseleave(function() {
+        $('.bCycleTag').css("color", "black");
+    })
 });
