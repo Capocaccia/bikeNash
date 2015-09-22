@@ -43,4 +43,20 @@ $(document).ready( function() {
     $('.bCycleContainer').mouseleave(function() {
         $('.bCycleTag').css("color", "black");
     })
+
+    $('.spinContainer').mouseenter(function() {
+        $('#spin').css("color", "#0198E1");
+    })
+
+    $('.spinContainer').mouseleave(function() {
+        $('#spin').css("color", "black");
+    })
+
+    $('.shopContainer').mouseenter(function() {
+        $('#shop').css("color", "#FC1501");
+    })
+
+    $('.shopContainer').mouseleave(function() {
+        $('#shop').css("color", "black");
+    })
 });
