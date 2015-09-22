@@ -1,4 +1,11 @@
 extends ../layouts/default
 
 block content
-	#map.col-md-10.col-md-offset-1
+	.row
+		.spinContainer
+			button.btn-default.col-md-2.col-md-offset-4#spin spin
+		.shopContainer
+			button.btn-default.col-md-2#shop shop
+	.row
+		#shopsMap.col-md-10.col-md-offset-1
+		#spinMap.col-md-10.col-md-offset-1
