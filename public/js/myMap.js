@@ -1,10 +1,31 @@
-var map = new GMaps({
-  el: '#map',
+var shopMap = new GMaps({
+  el: '#shopsMap',
   lat: 36.162640,
   lng: -86.781399
 });
 
-map.addMarker({
+var spinMap = new GMaps({
+  el: '#spinMap',
+  lat: 36.162640,
+  lng: -86.781399
+});
+
+$("#spin").on('click', function(){
+  $("#spinMap").show()
+  $("#shopsMap").hide()
+})
+
+$("#shop").on('click', function(){
+  $("#spinMap").hide()
+  $("#shopsMap").show()
+})
+
+$(document).load(function(){
+  $("#spinMap").hide()
+})
+
+
+shopMap.addMarker({
   lat: 36.122404,
   lng: -86.789937,
   title: 'Halcyon Bike Shop',
@@ -13,7 +34,7 @@ map.addMarker({
   }
 });
 
-map.addMarker({
+shopMap.addMarker({
   lat: 36.177225,
   lng: -86.749744,
   title: 'Eastside Cycles',
@@ -22,7 +43,7 @@ map.addMarker({
   }
 });
 
-map.addMarker({
+shopMap.addMarker({
   lat: 36.143188,
   lng: -86.792926,
   title: 'Green Fleet Bicycle Shop',
@@ -31,7 +52,7 @@ map.addMarker({
   }
 });
 
-map.addMarker({
+shopMap.addMarker({
   lat: 36.189330,
   lng: -86.624808,
   title: 'Ride615',
@@ -40,7 +61,7 @@ map.addMarker({
   }
 });
 
-map.addMarker({
+shopMap.addMarker({
   lat: 36.103357,
   lng: -86.869321,
   title: 'Gran Fondo Cycles',
@@ -49,7 +70,7 @@ map.addMarker({
   }
 });
 
-map.addMarker({
+shopMap.addMarker({
   lat: 36.046363,
   lng: -86.954228,
   title: 'Trace Bikes',
@@ -58,7 +79,7 @@ map.addMarker({
   }
 });
 
-map.addMarker({
+shopMap.addMarker({
   lat: 36.046363,
   lng: -86.954228,
   title: "R.B.'s Cyclery",
@@ -67,7 +88,7 @@ map.addMarker({
   }
 });
 
-map.addMarker({
+shopMap.addMarker({
   lat: 35.946587,
   lng: -86.879550,
   title: "Macs Harpeth Bikes",
@@ -75,3 +96,14 @@ map.addMarker({
   content: '<p>R.B.\'s Cyclery</p><a target="_blank" href="http://www.macsharpethbikes.com/" <p>macsharpethbikes.com</p></a><p>Family owned shop catering to casual riders with sales, accessories, nutrition, and used bikes.</p>'
   }
 });
+
+spinMap.addMarker({
+  lat: 35.946587,
+  lng: -86.879550,
+  title: "Macs Harpeth Bikes",
+  infoWindow: {
+  content: '<p>R.B.\'s Cyclery</p><a target="_blank" href="http://www.macsharpethbikes.com/" <p>macsharpethbikes.com</p></a><p>Family owned shop catering to casual riders with sales, accessories, nutrition, and used bikes.</p>'
+  }
+});
+
+
