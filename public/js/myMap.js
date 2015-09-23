@@ -20,10 +20,9 @@ $("#shop").on('click', function(){
   $("#shopsMap").show()
 })
 
-$(document).load(function(){
+$(window).load(function(){
   $("#spinMap").hide()
 })
-
 
 shopMap.addMarker({
   lat: 36.122404,
