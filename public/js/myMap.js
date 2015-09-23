@@ -96,13 +96,38 @@ shopMap.addMarker({
   }
 });
 
-spinMap.addMarker({
-  lat: 35.946587,
-  lng: -86.879550,
-  title: "Macs Harpeth Bikes",
+shopMap.addMarker({
+  lat: 36.104933,
+  lng: -86.817041,
+  title: "Pedal Chic",
   infoWindow: {
-  content: '<p>R.B.\'s Cyclery</p><a target="_blank" href="http://www.macsharpethbikes.com/" <p>macsharpethbikes.com</p></a><p>Family owned shop catering to casual riders with sales, accessories, nutrition, and used bikes.</p>'
+  content: '<p>Pedal Chic</p><a target="_blank" href="http://pedalchic.com/" <p>pedalchic.com</p></a><p>A full service bike shop geared for women cyclists of all levels.  Fittings, rentals, repairs, sales, tours, clinics, and accessories available.</p>'
   }
 });
 
+spinMap.addMarker({
+  lat: 36.105233,
+  lng: -86.816566,
+  title: "Krank Nashville",
+  infoWindow: {
+  content: '<p>Krank Nashville</p><a target="_blank" href="http://kranknashville.com/" <p>kranknashville.com</p></a><p>Cycling and fitness studio with SPD compatible bikes, changing rooms, and showers</p>'
+  }
+});
 
+spinMap.addMarker({
+  lat: 36.156875,
+  lng: -86.849155,
+  title: "Music City Spin Room",
+  infoWindow: {
+  content: '<p>Music City Spin Room</p><a target="_blank" href="http://barreampednashville.com/music-city-spin-room/" <p>musiccityspinroom.com</p></a><p>Located inside BarreAmped, bikes are SPD compatible offering spin and hybrid spin + yoga or sculpting classes.</p>'
+  }
+});
+
+spinMap.addMarker({
+  lat: 36.088522,
+  lng: -86.688585,
+  title: "Nashville Athletic Club",
+  infoWindow: {
+  content: '<p>Nashville Athletic Club</p><a target="_blank" href="http://nashvilleathleticclub.com/" <p>nashvilleathleticclub.com</p></a><p>A members only facility offering group spin classes in a professional gym environment.</p>'
+  }
+});
