@@ -92,7 +92,7 @@ shopMap.addMarker({
   lng: -86.879550,
   title: "Macs Harpeth Bikes",
   infoWindow: {
-  content: '<p>R.B.\'s Cyclery</p><a target="_blank" href="http://www.macsharpethbikes.com/" <p>macsharpethbikes.com</p></a><p>Family owned shop catering to casual riders with sales, accessories, nutrition, and used bikes.</p>'
+  content: '<p>Macs Harpeth Bikes</p><a target="_blank" href="http://www.macsharpethbikes.com/" <p>macsharpethbikes.com</p></a><p>Family owned shop catering to casual riders with sales, accessories, nutrition, and used bikes.</p>'
   }
 });
 
