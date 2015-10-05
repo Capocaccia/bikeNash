@@ -1,0 +1,22 @@
+{
+  "name": "bikenash",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Capocaccia/bikeNash",
+  "authors": [
+    "Carter Capocaccia <carter.capocaccia@gmail.com>"
+  ],
+  "description": "nashville centric cycling blog",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fullcalendar": "~2.4.0"
+  }
+}
