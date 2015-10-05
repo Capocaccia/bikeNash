@@ -42,6 +42,7 @@ exports = module.exports = function(app) {
   app.get('/maps/mtbMaps', routes.views.mapsMtb);
   app.get('/maps/roadMaps', routes.views.roadMaps);
   app.get('/shops', routes.views.shops);
+  app.get('/calendar', routes.views.calendar);
 
 
 	// NOTE: To protect a route so that only admins can see it, use the requireUser middleware:
