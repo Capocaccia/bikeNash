@@ -27,7 +27,13 @@ $(document).ready(function() {
             window.open(event.url);
             return false;
         }
-    }
+    },
+
+    dayClick: function(date, jsEvent, view) {
+        // change the day's background color just for fun
+        $(this).css('background-color', 'red');
+
+    },
 
     })
 
