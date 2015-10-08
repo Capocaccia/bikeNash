@@ -9,6 +9,7 @@ $(document).ready(function() {
             start  : '2015-10-05',
             end    : '2015-10-08',
             url: 'http://google.com/'
+
         },
         {
             title  : 'event2.1',
@@ -22,6 +23,9 @@ $(document).ready(function() {
             allDay : false // will make the time show
         }
     ],
+    eventBorderColor: '#FFF',
+    eventBackgroundColor: '#0198E1',
+
     eventClick: function(event) {
         if (event.url) {
             window.open(event.url);
