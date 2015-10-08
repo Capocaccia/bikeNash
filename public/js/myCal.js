@@ -33,10 +33,19 @@ $(document).ready(function() {
         }
     },
 
+    eventMouseover: function(date, jsEvent, view) {
+        // change the day's background color just for fun
+        $(this).css('background-color', 'rgba(1, 152, 225, 0.6)');
+    },
+
+    eventMouseout: function(date, jsEvent, view) {
+        // change the day's background color just for fun
+        $(this).css('background-color', '#0198E1');
+    },
+
     dayClick: function(date, jsEvent, view) {
         // change the day's background color just for fun
-        $(this).css('background-color', 'red');
-
+        $(this).css('background-color', 'rgba(255, 255, 255, 0.5)');
     },
 
     })
