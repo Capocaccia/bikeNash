@@ -43,11 +43,6 @@ $(document).ready(function() {
         $(this).css('background-color', '#0198E1');
     },
 
-    dayClick: function(date, jsEvent, view) {
-        // change the day's background color just for fun
-        $(this).css('background-color', 'rgba(255, 255, 255, 0.5)');
-    },
-
     })
 
 });
